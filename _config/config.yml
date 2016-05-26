@@ -1,0 +1,14 @@
+---
+Only:
+  classexists: 'SiteConfigLeftAndMain'
+---
+SiteConfigLeftAndMain:
+  extensions:
+    - SiteConfigTranslatableFix
+---
+Except:
+  classexists: 'SiteConfigLeftAndMain'
+---
+CMSSettingsController:
+  extensions:
+    - SiteConfigTranslatableFix

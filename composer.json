@@ -1,0 +1,20 @@
+{
+    "name": "memdev/siteconfig-translatable-fix",
+    "type": "silverstripe-module",
+    "description": "Fixes an annoying bug when using SiteConfig with Translatable",
+    "keywords": ["silverstripe", "siteconfig", "i18n", "translatable"],
+	"license": "BSD-3-Clause",
+    "homepage": "https://github.com/memdev/siteconfig-translatable-fix",
+    "authors": [
+        {
+            "name": "memdev.",
+            "email": "info@memdev.de",
+            "homepage": "http://www.memdev.de"
+        }
+    ],
+    "require": {
+        "silverstripe/cms": "~3"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
